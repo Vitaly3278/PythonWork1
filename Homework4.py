@@ -4,12 +4,12 @@
 num = int(input('Введите номер четверти (1-4): '))
 
 if num == 1:
-    print (f' {num} четверть: x > 0 и y > 0')
+    print(f' {num} четверть: x > 0 и y > 0')
 elif num == 2:
-    print (f' {num} четверть: x < 0 и y > 0')
+    print(f' {num} четверть: x < 0 и y > 0')
 elif num == 3:
-    print (f' {num} четверть: x < 0 и y < 0')
+    print(f' {num} четверть: x < 0 и y < 0')
 elif num == 4:
-    print (f' {num} четверть: x > 0 и y < 0')
+    print(f' {num} четверть: x > 0 и y < 0')
 else:
-    print ('Неправильный ввод!')
+    print('Неправильный ввод!')
